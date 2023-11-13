@@ -1,0 +1,53 @@
+﻿.Customfont{
+ font-size: 20px;
+ color:darkblue
+}
+#Introduction {
+    background-image: url(../images/dzenina.jpg);
+    background-size: cover;
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat;
+}
+
+.custom-img{
+    width:300px;
+    height:auto;
+}
+.git-icon{
+    color: #F34F29;
+}
+.html5-icon {
+    color: #E44D26;
+}
+.css-icon {
+    color: #3498db;
+}
+.bootstrap-icon {
+    color: #3498db;
+}
+.js-icon {
+    color: #f0db4f;
+}
+.python-icon {
+    color: #FFD43B;
+}
+ #Introduction {
+ margin-top: 60px;
+}
+.NameSurname {
+        font-size: 40px;
+        color: darkseagreen;
+    }
+.text{
+    font-size:20px;
+    color:white;
+}
+.custom-card img{
+    height:300px;
+    width:auto;
+}
+
+#Header a:hover, a:active {
+    text-decoration: underline;
+    color: yellow;
+}
