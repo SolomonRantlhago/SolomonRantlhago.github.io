@@ -1,4 +1,5 @@
-﻿.Customfont{
+﻿
+.Customfont{
  font-size: 20px;
  color:darkblue
 }
@@ -7,8 +8,9 @@
     background-size: cover;
     background-position: center; /* Center the image */
     background-repeat: no-repeat;
+    margin-top:60px;
+    margin-bottom:40px;
 }
-
 .custom-img{
     width:300px;
     height:auto;
@@ -31,9 +33,6 @@
 .python-icon {
     color: #FFD43B;
 }
- #Introduction {
- margin-top: 60px;
-}
 .NameSurname {
         font-size: 40px;
         color: darkseagreen;
@@ -51,9 +50,14 @@
     text-decoration: underline;
     color: yellow;
 }
-.MYSQL-CSharp{
-    width:250px;
-    height:auto;
+
+.MYSQL-CSharp {
+    width: 250px;
+    height: auto;
+}
+.Visibility {
+    margin-top: 50px;
+    margin-bottom: 40px;
 }
 .remove{
     margin-bottom:-35px;
