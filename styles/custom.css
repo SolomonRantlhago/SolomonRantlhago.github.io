@@ -30,9 +30,6 @@
 .js-icon {
     color: #f0db4f;
 }
-.python-icon {
-    color: #FFD43B;
-}
 .NameSurname {
         font-size: 40px;
         color: darkseagreen;
@@ -51,14 +48,48 @@
     color: yellow;
 }
 
+.jasmine {
+    width: 160px;
+    height: 160px
+}
 .MYSQL-CSharp {
     width: 250px;
     height: auto;
 }
 .Visibility {
-    margin-top: 50px;
+    margin-top: 65px;
     margin-bottom: 40px;
 }
 .remove{
     margin-bottom:-35px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+    align-items: center;
+}
+.grid-item {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+    .grid-item img {
+        max-width: 100%;
+        height: auto;
+        margin-top: 10px;
+    }
+
+@media screen and (max-width: 768px) {
+    .grid-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .grid-container {
+        grid-template-columns: 1fr;
+    }
 }
