@@ -215,117 +215,291 @@
         </section>
         <section id="Projects" class="container">
             <hr>
-            <div class="shadow">
+        
+            <div class="shadow-sm">
                 <h1 class="text-center Visibility">Projects</h1>
-                <div class="row">
-                    <div class="col-md-5 me-2 mb-2 card card-body border-info custom-card">
-                        <h4 class="card-header">Snakes and Ladders Windows Forms Application</h4>
-                        <img src="images/Snake.png" alt="Traffic Fines Application Picture" class="card-img">
-                        <p class="card-text">
-                            This project is a Windows Form application that emulates the classic Snakes and Ladders
-                            board game.
-                            Players interact with a dynamic and visually appealing interface, taking turns to roll
-                            virtual dice
-                            and navigate their tokens across a 36-block game board. The application features distinct
-                            classes for
-                            Board, Token, and Player, each designed according to specific interfaces. Users can input
-                            player names,
-                            roll dice, and observe token movements, with special events triggering informative messages
-                            on the
-                            interface.
-                        </p>
-                        <p class="card-footer">
-                            <a href="https://github.com/SolomonRantlhago/SnakesAndLadders-Game" target="_blank">GitHub
-                                Repository for the Snake and Ladders Game Application</a>
-                        </p>
+            
+                <!-- Both project cards must be inside this grid -->
+                <div class="project-grid">
+                
+                    <!-- Project 1 -->
+                    <div class="project-card">
+                        <h4>Library Management System</h4>
+                    
+                        <video controls preload="metadata" class="project-video">
+                            <source src="videos/Library_Demo.mp4" type="video/mp4">
+                            Your browser does not support video playback.
+                        </video>
+                    
+                        <div class="project-content">
+                            <p>
+                                A browser-based Library Management System that supports
+                                physical and digital book management, member registration,
+                                borrowing and returning books, overdue tracking, and
+                                fine calculation.
+                            </p>
+                        
+                            <p>
+                                The system uses object-oriented programming, including
+                                classes, inheritance, private fields, getters and setters.
+                                Its architecture separates business logic from UI
+                                functionality, with data persistence through localStorage
+                                and a Node.js/Express server.
+                            </p>
+                        
+                            <div class="project-tech">
+                                <strong>Technologies:</strong>
+                                <span>JavaScript (ES6+), HTML, CSS, Node.js, Express, Jest</span>
+                            </div>
+                        
+                            <div class="project-links">
+                                <a href="https://github.com/Umuzi-skillslab/javascript-library-capstone-debug-SolomonRantlhago"
+                                   target="_blank" rel="noopener noreferrer">
+                                    <i class="fa-brands fa-github"></i>
+                                    GitHub Repository
+                                </a>
+                            
+                                <a href="https://javascript-library-capstone-debug.vercel.app/"
+                                   target="_blank" rel="noopener noreferrer">
+                                    <i class="fa-solid fa-globe"></i>
+                                    Live Demo
+                                </a>
+                            </div>
+                        </div>
                     </div>
-                    <div class="col-md-5 mb-2 card card-body border-info custom-card">
-                        <h4 class="card-header">Sesotho-English Translation Console App</h4>
-                        <img src="images/Dictionary.png" alt="Human Resource System Picture" class="card-img">
-                        <p class="card-text">
-                            This is a user-friendly console application designed for translating Sesotho words to
-                            English and vice versa.
-                            Leveraging a dataset of the 1000 most common Sesotho words and their English translations,
-                            the app allows users to
-                            display words alphabetically in both languages and perform quick lookups, offering a
-                            seamless language exploration
-                            experience
-                        </p>
-                        <p class="card-footer">
-                            <a href="https://github.com/SolomonRantlhago/Dictionary" target="_blank">GitHub Repository
-                                for the Sesotho-English Translation Console App</a>
-                        </p>
+                
+                    <!-- Project 2 -->
+                    <div class="project-card">
+                        <h4>React Fitness Tracker &amp; Workout Planner</h4>
+                    
+                        <video controls preload="metadata" class="project-video">
+                            <source src="videos/Fitness_Demo.mp4" type="video/mp4">
+                            Your browser does not support video playback.
+                        </video>
+                    
+                        <div class="project-content">
+                            <p>
+                                A responsive, single-page React application that allows
+                                users to browse exercises, create weekly workout plans,
+                                log completed workouts, and track their fitness progress.
+                            </p>
+                        
+                            <p>
+                                Users can explore 21 exercises using search and filtering,
+                                view detailed exercise instructions and demonstration videos,
+                                and create workout routines for Monday through Sunday.
+                                The application also provides workout history, progress
+                                statistics, and visual progress charts.
+                            </p>
+                        
+                            <p>
+                                The application uses React Context API for shared state
+                                management and localStorage to preserve workout plans and
+                                history across page refreshes. It also includes unit and
+                                integration tests using Vitest and React Testing Library.
+                            </p>
+                        
+                            <div class="project-tech">
+                                <strong>Technologies:</strong>
+                                <span>
+                                    React 19, React Router v7, JavaScript, Context API,
+                                    localStorage, CSS Modules, Vitest, React Testing Library
+                                </span>
+                            </div>
+                        
+                            <div class="project-links">
+                                <a href="https://github.com/Umuzi-skillslab/react-fitness-tracker-SolomonRantlhago"
+                                   target="_blank" rel="noopener noreferrer">
+                                    <i class="fa-brands fa-github"></i>
+                                    GitHub Repository
+                                </a>
+                            
+                                <a href="https://legendary-toffee-568ca3.netlify.app/"
+                                   target="_blank" rel="noopener noreferrer">
+                                    <i class="fa-solid fa-globe"></i>
+                                    Live Demo
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Project 3 -->
+                    <div class="project-card">
+                        <h4>Book Collection Application</h4>
+                    
+                        <video controls preload="metadata" class="project-video">
+                            <source src="videos/Book_Collection_Demo.mp4" type="video/mp4">
+                            Your browser does not support video playback.
+                        </video>
+                    
+                        <div class="project-content">
+                            <p>
+                                A web application built using ASP.NET Core 3.1 MVC and C#
+                                that allows users to keep track of books they have read
+                                and books they would like to read.
+                            </p>
+                        
+                            <p>
+                                The application provides a simple way to organise and
+                                manage a personal book collection, making it easier for
+                                users to keep track of their reading progress.
+                            </p>
+                        
+                            <div class="project-tech">
+                                <strong>Technologies:</strong>
+                                <span>
+                                    ASP.NET Core 3.1 MVC, C#, HTML, CSS, Bootstrap 4
+                                </span>
+                            </div>
+                        
+                            <div class="project-links">
+                                <a href="https://github.com/SolomonRantlhago/Book_Collection_Application"
+                                   target="_blank" rel="noopener noreferrer">
+                                    <i class="fa-brands fa-github"></i>
+                                    GitHub Repository
+                                </a>
+                            </div>
+                        </div>
                     </div>
                 </div>
-                <div class="row">
-                    <div class="col-md-5 me-2 card card-body border-info custom-card">
-                        <h4 class="card-header">Book Collection Application</h4>
-                        <img src="images/Book_Collection.png" alt="Book Collection Application Picture"
-                            class="card-img">
-                        <p class="card-text">
-                            Built using ASP.NET CORE 3.1 MVC Framework, C#, HTML, CSS, Bootstrap 4. The purpose of this
-                            application is
-                            to keep track of all the books you have read as well as all the books you still want to
-                            read.
-                        </p>
-                        <p class="card-footer">
-                            <a href="https://github.com/SolomonRantlhago/Book_Collection_Application"
-                                target="_blank">GitHub Repository for the Book Collection Application</a>
-                        </p>
-                    </div>
-                    <div class="col-md-5 card card-body border-info custom-card">
-                        <h4 class="card-header">Sports Store Application</h4>
-                        <img src="images/Sports.png" alt="Sports store Application Picture " class="card-img">
-                        <p class="card-text">
-                            Built using ASP.NET CORE 3.1 MVC Framework, C#, HTML, CSS, Bootstrap 4. The purpose of this
-                            application is to provide
-                            the user with an online shopping experience.
-                        </p>
-                        <p class="card-footer">
-                            <a href="https://github.com/SolomonRantlhago/SportsStore_App" target="_blank">GitHub
-                                Repository for the Sports Store Application.</a>
-                        </p>
-                    </div>
-
-
-                </div>
-
             </div>
         </section>
-        <div id="Contacts" class="container mt-5">
-            <hr>
-            <div class="row justify-content-center align-items-center">
-                <div class="col-auto mb-3">
-                    <a href="https://www.facebook.com/profile.php?id=100014585287908" target="_blank">
-                        <i class="fa-brands fa-facebook fa-3x" style="color:#1877f2"></i>
-                    </a>
-                </div>
-                <div class="col-auto mb-3">
-                    <a href="https://www.linkedin.com/in/solomon-rantlhago-0287aa11b/" target="_blank">
-                        <i class="fa-brands fa-linkedin fa-3x" style="color:#0077b5"></i>
-                    </a>
-                </div>
-                <div class="col-auto mb-3">
-                    <a href="https://github.com/SolomonRantlhago" target="_blank">
-                        <i class="fa-brands fa-github fa-3x" style="color:#333"></i>
-                    </a>
-                </div>
-                <div class="col-auto mb-3">
-                    <a href="mailto:Solomonmachaba1@gmail.com" target="_blank">
-                        <i class="fa-solid fa-envelope fa-3x"></i>
-                    </a>
-                </div>
-                <div class="col-auto mb-3">
-                    <i class="fa-solid fa-phone fa-3x" style="color:#2ecc71"></i>
-                    <span class="lead"><strong>0735903588</strong></span>
-                </div>
+        <section id="Contacts" class="contact-section container mb-4">
+
+            <div class="contact-heading text-center">
+                <h2>Let's Connect</h2>
+                <p>
+                    Have an opportunity, a project idea, or just want to connect?
+                    I'd love to hear from you. Feel free to send me a message.
+                </p>
             </div>
-        </div>
-        <footer>
-            <div class="mt-1 p-2 bg-dark text-light text-center">
-                <div class="container">
-                    <p>&copy; 2024 Created by: SM Rantlhago. All rights reserved.</p>
+        
+            <div class="contact-container">
+            
+                <!-- Contact Form -->
+                <div class="contact-form">
+                    <h3>Send Me a Message</h3>
+                
+                    <form action="https://formsubmit.co/Solomonmachaba1@gmail.com"
+                          method="POST">
+                
+                        <input type="hidden" name="_subject"
+                               value="New Portfolio Contact Message">
+                
+                        <input type="hidden" name="_template" value="table">
+                
+                        <div class="form-group">
+                            <label for="contact-name">Full Name</label>
+                            <input type="text"
+                                   id="contact-name"
+                                   name="name"
+                                   placeholder="Enter your full name"
+                                   required>
+                        </div>
+                    
+                        <div class="form-group">
+                            <label for="contact-email">Email Address</label>
+                            <input type="email"
+                                   id="contact-email"
+                                   name="email"
+                                   placeholder="Enter your email address"
+                                   required>
+                        </div>
+                    
+                        <div class="form-group">
+                            <label for="contact-subject">Subject</label>
+                            <input type="text"
+                                   id="contact-subject"
+                                   name="subject"
+                                   placeholder="What is your message about?"
+                                   required>
+                        </div>
+                    
+                        <div class="form-group">
+                            <label for="contact-message">Message</label>
+                            <textarea id="contact-message"
+                                      name="message"
+                                      rows="5"
+                                      placeholder="Write your message here..."
+                                      required></textarea>
+                        </div>
+                    
+                        <button type="submit" class="send-message-btn">
+                            <i class="fa-solid fa-paper-plane"></i>
+                            Send Message
+                        </button>
+                    
+                    </form>
                 </div>
+            
+                <!-- Contact Information -->
+                <div class="contact-info">
+                    <h3>Contact Information</h3>
+                
+                    <p>
+                        Feel free to reach out through any of the platforms below.
+                        I'm always happy to connect and discuss new opportunities.
+                    </p>
+                
+                    <div class="contact-details">
+                    
+                        <a href="mailto:Solomonmachaba1@gmail.com"
+                           class="contact-detail">
+                            <i class="fa-solid fa-envelope"></i>
+                            <span>Solomonmachaba1@gmail.com</span>
+                        </a>
+                    
+                        <a href="tel:+27735903588"
+                           class="contact-detail">
+                            <i class="fa-solid fa-phone"></i>
+                            <span>073 590 3588</span>
+                        </a>
+                    
+                    </div>
+                
+                    <h4>Find Me Online</h4>
+                
+                    <div class="social-links">
+                    
+                        <a href="https://www.linkedin.com/in/solomon-rantlhago-0287aa11b/"
+                           target="_blank" rel="noopener noreferrer"
+                           aria-label="LinkedIn">
+                            <i class="fa-brands fa-linkedin"></i>
+                        </a>
+                    
+                        <a href="https://github.com/SolomonRantlhago"
+                           target="_blank" rel="noopener noreferrer"
+                           aria-label="GitHub">
+                            <i class="fa-brands fa-github"></i>
+                        </a>
+                    
+                        <a href="https://www.facebook.com/profile.php?id=100014585287908"
+                           target="_blank" rel="noopener noreferrer"
+                           aria-label="Facebook">
+                            <i class="fa-brands fa-facebook"></i>
+                        </a>
+                    
+                    </div>
+                
+                    <div class="contact-note">
+                        <i class="fa-solid fa-lightbulb"></i>
+                        <p>
+                            Always open to learning, sharing ideas, and exploring
+                            opportunities in software development.
+                        </p>
+                    </div>
+                
+                </div>
+            
+            </div>
+        </section>
+        <footer class="portfolio-footer">
+            <div class="container">
+                <p>
+                    &copy; <span id="current-year"></span>
+                    Solomon Rantlhago. All rights reserved.
+                </p>
+            
+                <p>Designed and developed with passion.</p>
             </div>
         </footer>
 
@@ -333,6 +507,14 @@
         <script src="lib/popper.js/popper.min.js"></script>
         <script src="lib/bootstrap/js/bootstrap.min.js"></script>
         <script>
+            // Automatically update the footer year
+            document.getElementById("current-year").textContent =
+                new Date().getFullYear();
+
+            // Close the mobile navigation after clicking a link
+            $('.navbar-nav>li>a').on('click', function () {
+                $('.navbar-collapse').collapse('hide');
+            });
             $('.navbar-nav>li>a').on('click', function () {
                 $('.navbar-collapse').collapse('hide');
             });
